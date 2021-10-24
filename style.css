@@ -1,0 +1,283 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color:white;
+}
+
+/* *********************************** HEADER ****************************************** */  
+.header img{
+    position: absolute;
+    width: 100%;
+    height: 203px;
+    top: 0px;
+}
+
+/* *********************************** NAVIGATION BAR ****************************************** */  
+.nav-bar{
+    background-color: #000000;
+    height: 50px;
+}
+.nav-bar ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 300px;
+ 
+}
+.nav-bar ul li{
+    float: left;
+    width: 49%;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-transform:uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    width: 49%;
+    padding-top: 15px;
+    background-color: black;
+}
+.nav-bar ul li a:hover{
+    color: red;
+    background-color: black;
+}
+.nav-bar ul li ul li{
+    display: none;
+}
+.nav-bar  ul li:hover ul li{
+    display: block;
+}
+.nav-bar i{
+    font-size: 21px;
+    padding-right: 5px;
+  
+}
+/* *********************************** BODY ****************************************** */  
+.content{
+    text-align: center;
+    line-height: 1px;
+    margin-top: -25px;
+}
+.content h1{
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+}
+.content p{
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.car-section{
+    background-color: #c4c4c4;
+    
+}
+
+.car-section img{
+    width: 305px;
+    border-radius: 10px;   
+} 
+.car{
+    display: inline-block;
+    margin:12px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.car p{
+    padding-left: 10px;
+}
+.car img:hover{
+    transform: scale(1.1);
+}
+.feature-car{
+    padding-top: 10px;
+    background-color: #c4c4c4;
+    
+}
+.feature-car h1{
+    color: black;
+    margin: 3px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+.price{
+    color: red;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.model{
+    color:black;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+}
+.distance{
+    color:#5E5E5E;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+}
+.copyright{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background-color: #000000;
+        clear: both;
+        padding-top: 3px;
+}
+.copyright p{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;  
+   
+
+}
+
+/* *********************************** AUDI ****************************************** */  
+
+.body-content{
+    margin: 120px 0px 0px 30px;
+   
+}
+.car-display h2{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;
+    font-size: 20px;    
+}
+.car-display{
+    float: left;
+    width: 48%;
+}
+.vehicle-info{
+    float: right;
+    width: 20%;
+}
+.car-specifics{
+    float: left;
+    width: 30%;
+}
+.vehicle-info h2{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;  
+}
+
+.vehicle-info p{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;
+    font-size: 14px; 
+    line-height: 55px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.car-specifics h2{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;  
+}
+.car-specifics p{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;
+    font-size: 14px; 
+    line-height: 55px;
+    background-color: #c4c4c4;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.style-info{
+    background-color: #c4c4c4;
+    width: 300px;
+  
+}
+.main-pic img{
+    width: 60%;
+}
+.below-display img{
+    width: 19.7%; 
+}
+
+/* *********************************** CONTACT FORM ****************************************** */  
+.main-content{
+    background-color: rgb(255, 255, 255);
+
+}
+.main img{
+    position: absolute;
+    width: 100%;
+    height: 203px;
+    top: 0px;
+}
+.contact-content{
+  padding-left: 15px;
+  float: left;
+  width: 70%;
+}
+.contact-content h3{
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;
+    font-size: 20px; 
+    
+}
+form{
+    width: 60%;
+    margin-top: 35px;
+    
+}
+.input-type{
+    margin-bottom: 30px;
+}
+input, textarea{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+    cursor: text;
+}
+button{
+    width: 73.5%;
+    border: 2px solid red;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+}
+.more-info{
+    float: left;
+    width: 25%;
+    background-color:#CFD1D4 ;
+    margin-top: 20px;
+}
+.more-info p{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    font-weight:bolder;
+    font-size: 14px; 
+    line-height: 48px;  
+    padding-left: 10px;
+
+}
+
